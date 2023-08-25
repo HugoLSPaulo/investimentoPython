@@ -21,5 +21,6 @@ from invista_me import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.pagina_inicial),
-    path('contactos/',views.pagina_de_contacto)
+    path('contactos/',views.pagina_de_contacto, name = 'contactos'),
+    path('minha/historia/',views.minha_historia)
 ]

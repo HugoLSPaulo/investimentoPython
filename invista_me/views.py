@@ -8,3 +8,11 @@ def pagina_inicial(request):
 
 def pagina_de_contacto(request):
 	return HttpResponse('Esta e a pagina de contacto')
+
+def minha_historia(request):
+	pessoa = {
+		'nome':'HP',
+		'idade':90,
+		'hobby':'rest'
+	}
+	return render(request,'investimentos/minha_historia.html',pessoa)

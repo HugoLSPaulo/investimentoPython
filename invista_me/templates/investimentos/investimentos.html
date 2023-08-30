@@ -10,6 +10,7 @@
 		<td>{{dado.id}}</td>
 		<td>{{dado.Investimento}}</td>
 		<td>{{dado.valor}}</td>
+		<td><button><a href="{% url 'detalhe' dado.id %}">Detalhe</a></button></td>
 	</tr>
 	{% endfor %}
 </table>

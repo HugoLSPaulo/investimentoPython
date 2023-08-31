@@ -5,7 +5,7 @@ from invista_me import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.investimentos),
+    path('',views.investimentos, name='investimentos'),
     path('contactos/',views.pagina_de_contacto, name = 'contactos'),
     path('minha/historia/',views.minha_historia),
     path('novo_investimento',views.criar, name = 'novo_investimento'),

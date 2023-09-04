@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'invista_me'
+    'invista_me',
+    'widget_tweaks'
 ]
 
 MIDDLEWARE = [
